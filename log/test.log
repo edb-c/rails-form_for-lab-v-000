@@ -574,6 +574,7 @@ Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
 Started GET "/school_classes/1" for 127.0.0.1 at 2018-10-02 16:29:34 +0000
 Processing by SchoolClassesController#show as HTML
   Parameters: {"id"=>"1"}
+<<<<<<< HEAD
   [1m[36mSchoolClass Load (0.1ms)[0m  [1mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered school_classes/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
@@ -784,3 +785,5 @@ Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-10-02 16:29:34.478087"], ["updated_at", "2018-10-02 16:29:34.478087"]]
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 8ce7e2e3f225678d100a9c71e31a9cc44d937211
